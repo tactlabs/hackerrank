@@ -9,7 +9,7 @@ def alternating_characters():
         
         # Loop through the string starting from the second character
         for i in range(1, len(s)):
-            print(f"s[{i}] = {s[i]}, s[{i-1}] = {s[i-1]}")
+            # print(f"s[{i}] = {s[i]}, s[{i-1}] = {s[i-1]}")
             if s[i] == s[i - 1]:  # Check if current character is same as previous
                 delete += 1  # Increment deletion count
         
